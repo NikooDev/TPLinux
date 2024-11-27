@@ -5,7 +5,7 @@ services:
     volumes:
       - ./index.php:/var/www/html/index.php
     networks:
-      - app_network
+      - app-network
 
   nginx:
     image: nginx:alpine
@@ -18,7 +18,7 @@ services:
     depends_on:
       - php-fpm
     networks:
-      - app_network
+      - app-network
 
 networks:
   app_network:
