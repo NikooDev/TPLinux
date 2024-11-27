@@ -25,3 +25,5 @@
 - Configuration du Firewall Nftables
 - Installation de docker
 - Installation de ctop
+- Création d'un réseau Docker : 
+  - sudo docker network create app-network
